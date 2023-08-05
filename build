@@ -1,0 +1,5 @@
+#!/bin/bash
+go mod init $1 
+go get -u github.com/gin-gonic/gin
+go get go.mongodb.org/mongo-driver/mongo
+go get github.com/stretchr/testify
